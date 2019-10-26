@@ -1,0 +1,90 @@
+<style type="text/css">
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size:24pt;
+}
+b {
+	font-family: 'Playfair Display', serif;
+	font-size:20pt;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size:16pt;
+}
+* {
+  box-sizing: border-box;
+}
+
+body, html{
+	background-color: #d4d9de;
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	height: 100%;
+}
+.header {
+  
+  height: 20%;
+  
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("header2.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+
+.page {
+	height: 100%;
+}
+nav {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border: 1px solid #e7e7e7;
+  color: #FFFAFA;
+}
+
+nav ul li {
+  float: none;
+  display: inline;
+  color: #FFFAFA;
+}
+
+nav ul li a {
+  display: inline-block;
+  width: 14%;
+  font-size:20pt;
+  color: #FFFAFA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+  color: #cccccc;
+}
+
+.active {
+  color: #cccccc;
+}
+
+
+
+footer { position: relative; background-color:black; width: 100%; margin-right:auto; margin-left:auto; bottom: 0; color: #FFFAFA }
+footer ul { list-style:none; text-align:center; border-top:1px solid #eee;  padding:10px 0;margin-bottom:-5px; }
+footer ul li { display:inline; text-transform:uppercase; padding:0 10px;  }
+footer ul li a { text-decoration:none; color:#FFFAFA; }
+footer ul li a:hover { color:#cccccc; }
+</style>
